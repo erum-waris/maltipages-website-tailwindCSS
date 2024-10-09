@@ -3,7 +3,7 @@ import Image from "next/image"
 import Button from './Button'
 function HeroSection() {
   return (
-    <div  className='flex flex-col m-10 md:pt-20 md:mt-0 mb-10 md:mb-5 md:flex-row'>
+    <div  className='flex flex-col m-0 pt-5 md:pt-20 md:mt-0 mb-10 md:mb-5 md:flex-row'>
         <div className='md:m-10 lg:w-full lg:h-full '>
 
         <Image src="/images/developer.webp" alt="image" width="350" height="350"
